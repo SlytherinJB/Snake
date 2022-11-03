@@ -7,28 +7,35 @@ void setup() {
   slutB = loadImage("GameOver.png");
 
   textSize(80);
-  
- // reset();
+
+  // reset();
 }
 
 void draw() {
   background(0, 0, 51);
+  // jeg har tilføjet start som kun kører hvis der er trykket på r
+  
   spilebret();
   drawPokeball();
   drawSnake();
-textHighscore();
+  textHighscore();
   if (collision()) {
     generatePXPY();
     highscore++;
   } else {
-      moveSnake();
+    moveSnake();
   }
-    gameOver();
+  gameOver();
 }
 
+
+
 void start() {
+  println("starter");
   x=415;
   y=490;
   generatePXPY();
-highscore = 0;
+  highscore = 0;
+  
+  
 }

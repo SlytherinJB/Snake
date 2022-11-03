@@ -1,3 +1,3 @@
-//void textHighscore(){
-//text("" + highscore,415,70);  
-//}
+void textHighscore(){
+text("" + highscore,415,70);  
+}

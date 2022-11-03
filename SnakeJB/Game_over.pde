@@ -9,4 +9,3 @@ speed=0;
 //void reset(){
 //snakeSize = 20;
 //speed = 1;
-}

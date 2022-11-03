@@ -4,8 +4,10 @@ void drawSnake() {
 }
 
 void keyPressed() {
+  println(key);
   if(key=='r'){
-  slut=false;
+  //slut=false;
+  start();
   }
 }
 
