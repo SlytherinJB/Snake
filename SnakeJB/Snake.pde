@@ -1,8 +1,12 @@
 void drawSnake() {
-  square(x,y,10);
+  rectMode(CENTER);
+  square(x,y,20);
 }
 
 void keyPressed() {
+  if(key=='r'){
+  slut=false;
+  }
 }
 
 void moveSnake(){
@@ -19,6 +23,7 @@ switch(key) {
   case 'd':
     x=x+speed;
     break;
+
 }
   
 }
