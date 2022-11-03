@@ -11,3 +11,4 @@
 8. Når spillet er slut, popper der et billede op med “GAME OVER”
 9. Snakens hastighed skal gå op, for hver gang den spiser en pokeball
 10. Bruger WASD til at bevæge sig rundt.
+11. Spillet skal kunne genstartes ved at trykke en bestemt knap
