@@ -1,0 +1,13 @@
+﻿Snake krav
+
+
+1. Skal kunne bevæge sig i lodret eller vandret, men kun i én af retningerne ad gangen.   
+2. Vores “snake” er en firkant.
+3. Det vores “snake” skal fange, er pokeballs.  
+4. Pokeballs spawner randomly på spillebrættet. 
+5. Spillebrættet er size(850,900)
+6. Hver gang vores “snake” fanger en pokeball, går scoren op med +1. 
+7. Hvis “snaken” rammer en af ydrevæggene, slutter spillet. 
+8. Når spillet er slut, popper der et billede op med “GAME OVER”
+9. Snakens hastighed skal gå op, for hver gang den spiser en pokeball
+10. Bruger WASD til at bevæge sig rundt.
